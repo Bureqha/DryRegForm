@@ -1,0 +1,106 @@
+
+<!doctype html>
+<html>
+<head>
+<title> Form </title>
+<style>
+form{  
+
+background-image:url('3.jpeg')
+
+}
+
+
+</style>
+
+
+
+</head>
+<form>
+<body background="q.jpg">
+<h1 align="center"> <b> Registration Form </b> </h1>
+
+<table align="center" cellpadding="5">
+<tr>
+
+<td> <b> STUDENT ID </b> </td>
+<td> <input type="text" name="ID" placeholder="Enter Your ID" required="true"></td>
+</tr>
+
+
+<tr>
+<td> <b> FIRST NAME </b> </td>
+<td> <input type="text" name="First Name" placeholder="Enter Your FIRST NAME" required></td>
+</tr>
+
+<tr>
+<td> <b> LAST NAME </b> </td>
+<td> <input type="text" name="Last Name" placeholder="Enter Your LAST NAME" required> </td>
+</tr>
+
+<tr>
+<td> <b> STUDENT PHONE </b> </td>
+<td> <input type="text" name="Student Phone" placeholder="Enter Your STUDENT PHONE reqiured"> </td>
+</tr>
+
+<tr>
+<td> <b> STUDENT EMAIL </b> </td>
+<td> <input type="email" name="Student Email" placeholder="Enter Your STUDENT EMAIL" required> </td>
+</tr>
+
+<tr>
+<td> <b> STUDENT GENDER </b> </td>
+<td> <input type="radio" name="GENDER" value="Male"> Male 
+<input type="radio" name="GENDER" value="Female">  Female
+</td>
+</tr>
+<tr>
+<td> <b> STUDENT COUNTRY </b> </td>
+<td>
+<select name="dropdown">
+<option value="SOMALILAND" selected> SOMALILAND </option>
+<option value="SOMALIA" selected> SOMALIA </option>
+<option value="DJABOUTI" selected> DJABOUTI </option>
+<option value="KENYA" selected> KENYA </option>
+<option value="UGANDA" selected> UGANDA </option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td> <b> REGISTRATION YEAR </b> </td>
+<td> <input type="date"> 
+</tr>
+
+<tr>
+<td> <b> STUDENT FACULTY </b> </td>
+<td> <input type="checkbox" name="ICT" value="on" required > ICT 
+<input type="checkbox" name="ACC" value="on required> ACC
+</tr>
+
+<td> <b> STUDENT SHIFT </b> </td>
+<td>
+<select name="dropdown">
+<option value="MORNING" selected> MORNING </option>
+<option value="NOON" selected> NOON </option>
+<option value="AFTERNOON" selected> AFTERNOON </option>
+<option value="EVENING" selected> EVENING </option>
+<option value="NIGHT" selected> NIGHT </option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td> <b> STUDENT PHOTO </b> </td>
+<td> <input type="file" name="fileupload" accept> 
+</tr>
+
+<tr>
+<td> <input type="submit" name="submit" value="Registration Now" required/>  
+<input type="reset" name="reset" value="Clear" required/>  
+</tr>
+
+
+</form>
+</body>
+</html>
